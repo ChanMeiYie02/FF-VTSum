@@ -1,4 +1,4 @@
-# 🎬 A Frame Filtering-Based Approach for Automated Video-to-Text Summarization
+# 🎬 FF-VTSum
 
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.6-ee4c2c.svg)](https://pytorch.org/)
