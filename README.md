@@ -1,11 +1,11 @@
-# 🎬 AI-Powered Multimodal Video Summarizer
+# 🎬 A Frame Filtering-Based Approach for Automated Video-to-Text Summarization
 
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.6-ee4c2c.svg)](https://pytorch.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.56-ff4b4b.svg)](https://streamlit.io/)
 [![DOI](https://zenodo.org/badge/1371169704.svg)](https://doi.org/10.5281/zenodo.23502928)
 
-**AI Video Summarizer with Adaptive Sampling Mechanism** is a local, end-to-end **multimodal video summarization system** that combines visual scene detection, speech-to-text transcription, semantic topic clustering, and LLM-based Map-Reduce summarization into a single automated pipeline.
+**A Frame Filtering-Based Approach for Automated Video-to-Text Summarization** is a local, end-to-end **multimodal video summarization system** that combines visual scene detection, speech-to-text transcription, semantic topic clustering, and LLM-based Map-Reduce summarization into a single automated pipeline.
 
 The system is controlled through an interactive **Streamlit dashboard** and is designed to process both short and long-form videos while preserving important visual and audio context.
 
@@ -25,7 +25,7 @@ The system is controlled through an interactive **Streamlit dashboard** and is d
 ## 🌟 Key Features
 
 * **🎥 Dual Input Processing**
-  Accepts local video files (`.mp4`, `.mkv`, `.avi`) and YouTube URLs using `yt-dlp`.
+  Accepts local video file (`.mp4`) and YouTube URLs using `yt-dlp`.
 
 * **🎬 TransNetV2 Scene Boundary Detection**
   Detects visual shot transitions and supports keyframe selection through a PyTorch-based scene detection pipeline.
